@@ -1,0 +1,62 @@
+body{
+  background-color: beige;
+}
+h1{
+  text-align: center;
+ 
+}
+
+.parent1{
+  background-color: rgb(248, 146, 44);
+  height: 380px;
+  width:40%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
+.child1{
+  background-color: aliceblue;
+  height: 370px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 0;
+
+}
+.div-style{
+  
+  background-color: cadetblue;
+  padding: 3px;
+  border-radius: 10px;
+
+}
+.form-style{
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.btn-style{
+  background-color: darkseagreen;
+  margin-left: 10px;
+  border: none !important;
+  border-radius: 5px;
+  font-size: larger;
+}
+.btn-style:hover{
+  background-color: navy;
+  color:rgb(193, 244, 11);
+}
+.li-style{
+  
+  background-color:cadetblue !important;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content:space-around;
+  width: 50%;
+  height: 40px;
+  padding: 5px;
+  margin-top: 10px;
+}
